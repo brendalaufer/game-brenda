@@ -2,7 +2,7 @@
 from random import shuffle, choice
 
 def main():
-    palavra = 'NANOTECNOLOGIA'
+    palavra = 'LINDA'
     frases = ['Não foi dessa vez', 'Vamos lá, mais uma vez', 'Você consegue na próxima', 'Não desista ainda!']
 
     # embalhar a palavra
@@ -11,7 +11,7 @@ def main():
         shuffle(palavra_embaralhada)
         palavra_embaralhada = ' '.join(palavra_embaralhada)
         return palavra_embaralhada
-    
+
     # mostrar as tentativas
     def tentativas(palavra, frases):
         x, y = 0, 4
