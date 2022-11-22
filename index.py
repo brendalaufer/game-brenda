@@ -2,7 +2,7 @@
 from random import shuffle, choice
 
 def main():
-    palavra = 'LINDA'
+    palavra = 'NANOTECNOLOGIA'
     frases = ['Não foi dessa vez', 'Vamos lá, mais uma vez', 'Você consegue na próxima', 'Não desista ainda!']
 
     # embalhar a palavra
